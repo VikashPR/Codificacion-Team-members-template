@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(22, 22, 22);
+  background: radial-gradient(circle, rgba(22, 22, 22, 1) 0%, rgba(23, 23, 23, 1) 2%, rgba(24, 24, 24, 1) 5%, rgba(25, 25, 25, 1) 9%, rgba(26, 26, 26, 1) 12%, rgba(27, 27, 27, 1) 15%, rgba(28, 28, 28, 1) 19%, rgba(28, 28, 28, 1) 23%, rgba(29, 29, 29, 1) 27%, rgba(30, 30, 30, 1) 30%, rgba(30, 30, 30, 1) 34%, rgba(31, 31, 31, 1) 37%, rgba(32, 32, 32, 1) 41%, rgba(33, 33, 33, 1) 44%, rgba(34, 34, 34, 1) 48%, rgba(34, 34, 34, 1) 51%, rgba(35, 35, 35, 1) 54%, rgba(35, 35, 35, 1) 58%, rgba(36, 36, 36, 1) 61%, rgba(36, 36, 36, 1) 65%, rgba(37, 37, 37, 1) 68%, rgba(37, 37, 37, 1) 71%, rgba(38, 38, 38, 1) 75%, rgba(38, 38, 38, 1) 78%, rgba(38, 38, 38, 1) 82%, rgba(39, 39, 39, 1) 85%, rgba(39, 39, 39, 1) 88%, rgba(39, 39, 39, 1) 92%, rgba(40, 40, 40, 1) 95%, rgba(40, 40, 40, 1) 97%, rgba(41, 41, 41, 1) 100%);
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+ul{
+  list-style-type: none;
+}
+.teamMembers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card{
+  padding: 30px;
+  background: #fff;
+  width: 90%;
+  max-width:320px;
+  min-width: 280px;
+  height: 480px;
+  margin: 30px;
+}
+.card img{
+  width: 100%;
+  height: 75%;
+}
+.card .content{
+  height: 30%;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+}
+.card .content h1{
+  font-size: 1.7rem;
+  color: rgb(97, 158, 228);
+}
+.card .content p{
+  font-size: 1.2rem;
+  color:rgb(226, 106, 106);
+}
+.card .content ul li a{
+  font-size: 1.5rem;
+  transition:   0.4s ease-in-out all;
+  margin: 5px;
+
+}
+.social li a:nth-child(1):hover{
+  color: #d6249f;
+  transform:scale(1.2);
+}
+.social li a:nth-child(2):hover{
+  color: #0e76a8;
+
+  transform:scale(1.2);
+}
+.social li a:nth-child(3):hover{
+  color: #6e5494;
+  transform:scale(1.2);
+}
